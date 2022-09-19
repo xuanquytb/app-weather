@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+
+body {
+    
+    background: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.05),
+            rgba(0, 0, 0, 0.01)
+        ),
+        url(../../../public/image/bgimage.jpg) no-repeat center/cover;
+    
+}
+
+@layer base {
+    :root {
+        --width-content__time-sun: 230px;
+        --primary-color:"#f7812df2"
+    }
+  }
