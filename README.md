@@ -2,7 +2,7 @@
   <img src="./Screenshot.png" width="750" title="hover text">
 </p>
 <p align="left">
- Live Demo: weathertonydev.cf hoặc ip : 138.2.34.135
+ Live Demo: http://weathertonydev.cf/ hoặc ip : 138.2.34.135
 </p>
 <p align="left">
  Tìm thời tiết hiện tại và dự báo trong 7 ngày của bất kỳ thành phố nào trên trái đất với ứng dụng web nhỏ đơn giản này.
