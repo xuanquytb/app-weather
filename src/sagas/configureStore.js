@@ -5,6 +5,7 @@ import { reducer } from './reducers';
 import rootSaga from './rootSaga';
 
 const sagaMiddleware = createSagaMiddleware();
+
 const store = configureStore({
     reducer: {
         reducer: reducer,

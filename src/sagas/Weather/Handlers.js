@@ -19,6 +19,7 @@ export function* handleGetWeather({ type, payload }) {
         yield put(setMessage('Lỗi API' + error));
     }
 }
+// get week
 export function* handleGetWeatherWeek({ type, payload }) {
     let newQuery = '';
     try {

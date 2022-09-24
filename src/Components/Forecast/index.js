@@ -1,12 +1,12 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import { useSelector } from 'react-redux';
 import ChartJs from '../ChartTemp/ChartJs';
 
 const Forecast = () => {
     const { Weather, WeatherWeek } = useSelector((state) => state.reducer.weather);
+    console.log('🚀 ~ file: index.js ~ line 7 ~ Forecast ~ Weather', Weather);
 
     const { list } = WeatherWeek;
-    // console.log('🚀 ~ file: index.js ~ line 9 ~ Forecast ~ list', typeof list);
 
     const { name, main, sys } = Weather;
     const timesunrise = new Date(sys?.sunrise * 1000).toLocaleString('vi-VN', { hour: 'numeric', minute: 'numeric' });
@@ -119,7 +119,7 @@ const Forecast = () => {
                                 max={100}
                                 before=""
                                 after=""
-                                value={timeDay[hour].split(',')[0]}
+                                value={timeDay[hour]}
                                 step={0.1}
                                 className={`relative w-[100%] h-[3px]  outline-none border-none appearance-none bg-[#f7812df2]  before:content-[attr(before)] before:w-[8px] before:h-[8px] before:left-0 before:bottom-0 before:top-[-2.5px] before:rounded-[50%] before:bg-black before:absolute after:content-[attr(after)] after:absolute after:w-[8px] after:h-[8px] after:bg-slate-500 after:rounded-[50%] after:top-[-2.5px] after:bottom-0 after:right-0`}
                             />

@@ -17,5 +17,4 @@
         <li>Axios for easy http requests</li>
         <li>Tailwind CSS for styling and design</li>
     </ul>
-
 </p>
