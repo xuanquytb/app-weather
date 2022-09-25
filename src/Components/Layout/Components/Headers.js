@@ -36,7 +36,7 @@ const Headers = () => {
         <div className="w-[317px] laptop:w-[930px] h-14 flex justify-between mt-5 ml-4 mb-5">
             <div>
                 <span className="font-BadScript font-semibold mb-3">Xuân Qúy</span>
-                <span className="w-10 h-10 flex justify-center items-center bg-gray-300 rounded-xl ">
+                <span className=" hidden w-10 h-10 laptop:flex justify-center items-center bg-gray-300 rounded-xl ">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-5 w-5"

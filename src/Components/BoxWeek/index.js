@@ -8,7 +8,7 @@ function BoxWeek({ data }) {
                         key={index}
                     >
                         <img
-                            className="w-13 h-13 object-cover"
+                            className="w-[60px] h-[40px] object-cover"
                             src={`https://openweathermap.org/img/wn/${item.icon}@2x.png`}
                             alt=""
                         />

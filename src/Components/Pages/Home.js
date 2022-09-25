@@ -11,7 +11,7 @@ const Home = () => {
         <div className="flex">
             {Weather.id > 0 && (
                 <div className="w-full h-full flex flex-col">
-                    <div className="flex flex-col items-center w-[22.8rem] laptop:w-[62.8rem] h-[600px] laptop:h-[300px] sm:justify-between md:flex-row  ">
+                    <div className="flex flex-col items-center w-[22.8rem] laptop:w-[62.8rem] h-[340px] laptop:h-[300px] sm:justify-between md:flex-row  ">
                         <CardStatus nameCity={Weather.name} main={Weather.main} />
                         <CardWind weather={Weather.weather[0]} wind={Weather.wind} clouds={Weather.clouds} />
                     </div>
