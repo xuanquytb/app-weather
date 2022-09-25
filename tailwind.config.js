@@ -16,6 +16,16 @@ module.exports = {
             backgroundImage: {
                 'primary-gradien': `linear-gradient(to bottom, rgba(245, 164, 106, 0.3) ,rgba(245, 164, 106, 0.03))`,
             },
+            screens: {
+                tablet: '640px',
+                // => @media (min-width: 640px) { ... }
+
+                laptop: '1024px',
+                // => @media (min-width: 1024px) { ... }
+
+                desktop: '1280px',
+                // => @media (min-width: 1280px) { ... }
+            },
         },
     },
     plugins: [],

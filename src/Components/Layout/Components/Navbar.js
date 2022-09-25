@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className="rounded-xl items-center bg-[#ffffff] text-[#ffffff] flex flex-col pt-6 px-[50px] pb-[75px] w-[100px] h-[725px]">
+        <div className="hidden rounded-xl items-center bg-[#ffffff] text-[#ffffff] laptop:flex flex-col pt-6 px-[50px] pb-[75px] w-[100px] h-[725px]">
             <div className="w-[85px] h-[85px]">
                 <img src="./image/logoRmbg1.gif" alt="imageWeather" />
             </div>

@@ -4,7 +4,7 @@ const CardStatus = (props) => {
     let { temp, temp_max, temp_min, humidity } = props.main;
     // console.log(props);
     return (
-        <div className="w-[495px] h-[300px] flex bg-[url('../../../public/image/nature4.jpg')] bg-cover rounded-xl">
+        <div className="w-[338px] laptop:w-[495px] h-[300px] flex bg-[url('../../../public/image/nature4.jpg')] bg-cover rounded-xl">
             <div className="px-[20px] py-[20px] h-[200px] w-full ">
                 <div className="flex">
                     <div className="w-[40px] h-[40px] rounded-[50%] bg-white flex justify-center items-center">
@@ -26,11 +26,11 @@ const CardStatus = (props) => {
                         <p>Nhiệt độ</p>
                         <p className="font-bold">{temp} ℃</p>
                     </div>
-                    <div className="rounded-lg text-[16px] flex items-center justify-center flex-col w-[160px] h-[75px] bg-[#cce16a]">
+                    <div className="hidden rounded-lg text-[16px] laptop:flex items-center justify-center flex-col w-[160px] h-[75px] bg-[#cce16a]">
                         <p>Nhiệt độ cao nhất</p>
                         <p className="font-bold">{temp_max} ℃</p>
                     </div>
-                    <div className="rounded-lg text-[16px] flex items-center justify-center flex-col w-[160px] h-[75px] bg-[#ffffff]">
+                    <div className="hidden rounded-lg text-[16px] laptop:flex items-center justify-center flex-col w-[160px] h-[75px] bg-[#ffffff]">
                         <p>Nhiệt độ thấp nhất</p>
                         <p className="font-bold">{temp_min} ℃</p>
                     </div>

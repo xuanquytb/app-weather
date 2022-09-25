@@ -72,7 +72,7 @@ const Forecast = () => {
     // const ww = useRef(widthSun[hour]);
 
     return (
-        <div className="w-[25%] h-[100%] overflow-hidden bg-gray-100 rounded-md ml-2 ">
+        <div className="hidden laptop:block w-[25%] h-[100%] overflow-hidden bg-gray-100 rounded-md ml-2 ">
             <div className="w-[93%] h-[715px] mt-6  mb-4 ml-4 flex flex-col items-center">
                 <div className="flex justify-center items-center w-[93%] relative">
                     <div className="text-[15px] font-semibold absolute left-0 ">{name !== '' && name + ' '}</div>

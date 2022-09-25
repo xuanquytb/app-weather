@@ -29,11 +29,11 @@ const BoxWeatherWeed = () => {
     const { rain } = Weather;
 
     return (
-        <div className="info-week w-[63rem] h-[300px] mt-8 flex">
-            <div className="flex flex-col bg-[#4b99c9] rounded-lg mr-1">
-                <div className="flex">
-                    <div className="w-[28rem] h-[46px] ">
-                        <h2 className="font-bold text-[25px] pl-2">Thời tiết 7 ngày?</h2>
+        <div className="info-week w-[22rem] laptop:w-[63rem] laptop:h-[300px] mt-8 flex flex-col laptop:flex-row">
+            <div className="flex flex-col bg-[#4b99c9] rounded-lg ml-3 mr-1 h-[250px] laptop:h-[295px]">
+                <div className="flex ">
+                    <div className=" w-[22rem] laptop:w-[28rem] h-[46px]">
+                        <h2 className="font-bold text-[22px] laptop:text-[25px] pl-2">Thời tiết 7 ngày?</h2>
                     </div>
                     <div className="w-[244px] h-11 flex items-end flex-row-reverse pr-3">
                         <div className="w-[40px] h-[40px] rounded-xl bg-[#f7812d] flex items-center justify-center">
@@ -56,13 +56,13 @@ const BoxWeatherWeed = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-[43.3rem] h-[250px]">
+                <div className="w-[22rem] laptop:w-[43.3rem] h-[250px]">
                     <div className="h-full w-full relative border-t-[1px] border-dotted border-white">
                         <div>{weekInfo !== undefined && <BoxWeek data={weekInfo} />}</div>
                     </div>
                 </div>
             </div>
-            <div className="px-6 py-6 w-[367px] max-h-[244px]' bg-[url('../../../public/image/person1.jpg')] bg-cover rounded-xl">
+            <div className="laptop:px-6 laptop:py-6 ml-3 mt-2 w-[338px] h-[236px] laptop:w-[367px] max-h-[244px]' bg-[url('../../../public/image/person1.jpg')] bg-cover rounded-xl">
                 <div>
                     <h2 className="font-bold text-[25px]">Dự báo mưa</h2>
                     <h3 className="font-bold text-[17px]">
