@@ -62,7 +62,7 @@ const BoxWeatherWeed = () => {
                     </div>
                 </div>
             </div>
-            <div className="hidden laptop:px-6 laptop:py-6 ml-3 mt-[2rem] w-[338px] h-[240px] laptop:w-[287px] max-h-[244px]' bg-[url('../../../public/image/person1.jpg')] bg-cover rounded-xl">
+            <div className="hidden laptop:block laptop:px-6 laptop:py-6 ml-3 mt-[2rem] w-[338px] h-[240px] laptop:w-[287px] max-h-[244px]' bg-[url('../../../public/image/person1.jpg')] bg-cover rounded-xl">
                 <div>
                     <h2 className="font-bold text-[25px]">Dự báo mưa</h2>
                     <h3 className="font-bold text-[17px]">
