@@ -4,7 +4,7 @@ const CardStatus = (props) => {
     let { temp, temp_max, temp_min, humidity } = props.main;
     // console.log(props);
     return (
-        <div className="w-[338px] laptop:w-[495px] mb-3 laptop:mb-0 h-[180px] flex bg-[url('../../../public/image/nature4.jpg')] bg-cover rounded-xl">
+        <div className="w-[338px] laptop:w-[495px] mb-3 laptop:mb-0 h-[180px] laptop:h-[256px] flex bg-[url('../../../public/image/nature4.jpg')] bg-cover rounded-xl">
             <div className="px-[20px] py-[20px] h-[200px] w-full ">
                 <div className="flex">
                     <div className="w-[40px] h-[40px] rounded-[50%] bg-white flex justify-center items-center">

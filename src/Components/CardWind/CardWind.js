@@ -3,7 +3,7 @@ import React from 'react';
 const CardWind = (props) => {
     // console.log(props);
     return (
-        <div className="w-[338px] laptop:w-[495px] h-[180px] flex flex-col justify-around bg-[url('../../../public/image/Wind.jpg')] bg-cover rounded-xl">
+        <div className="w-[338px] laptop:w-[495px] h-[180px] laptop:h-[256px] flex flex-col justify-around bg-[url('../../../public/image/Wind.jpg')] bg-cover rounded-xl">
             <div className="px-[24px] laptop:w-full max-h-[40%]">
                 <div className="flex mb-15 ml-3 flex-row item-center h-[80%]">
                     <img src={`https://openweathermap.org/img/wn/${props.weather.icon}@2x.png`} alt="" />

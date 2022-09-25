@@ -30,7 +30,7 @@ const BoxWeatherWeed = () => {
 
     return (
         <div className="info-week w-[22rem] laptop:w-[63rem] laptop:h-[300px] mt-8 flex flex-col laptop:flex-row">
-            <div className="flex flex-col mt-8 bg-[#4b99c9] rounded-lg ml-3 mr-1 h-[250px] laptop:h-[295px]">
+            <div className="flex flex-col mt-8 bg-[#4b99c9] rounded-lg ml-3 mr-1 h-[250px] laptop:h-[240px]">
                 <div className="flex ">
                     <div className=" w-[22rem] laptop:w-[28rem] h-[46px]">
                         <h2 className="font-bold text-[22px] laptop:text-[25px] pl-2">Thời tiết 7 ngày?</h2>
@@ -62,7 +62,7 @@ const BoxWeatherWeed = () => {
                     </div>
                 </div>
             </div>
-            <div className="laptop:px-6 hidden laptop:py-6 ml-3 mt-2 w-[338px] h-[236px] laptop:w-[367px] max-h-[244px]' bg-[url('../../../public/image/person1.jpg')] bg-cover rounded-xl">
+            <div className="hidden laptop:px-6 laptop:py-6 ml-3 mt-[2rem] w-[338px] h-[240px] laptop:w-[287px] max-h-[244px]' bg-[url('../../../public/image/person1.jpg')] bg-cover rounded-xl">
                 <div>
                     <h2 className="font-bold text-[25px]">Dự báo mưa</h2>
                     <h3 className="font-bold text-[17px]">

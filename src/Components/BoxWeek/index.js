@@ -4,7 +4,7 @@ function BoxWeek({ data }) {
             {data.map((item, index) => {
                 return (
                     <div
-                        className="flex flex-col justify-center items-center w-[48px] laptop:w-full laptop:mb-5 text-white gap-y-[0.8rem] laptop:gap-x-5 border-r-[0.1px] border-dotted border-gray-100"
+                        className="flex flex-col justify-center items-center w-[48px] laptop:w-full laptop:h-[191px] laptop:mb-5 text-white gap-y-[0.8rem] laptop:gap-x-5 border-r-[0.1px] border-dotted border-gray-100"
                         key={index}
                     >
                         <img
@@ -19,7 +19,7 @@ function BoxWeek({ data }) {
                         <h5 className="font-semibold break-word text-[10px] laptop:text-[12px] capitalize text-center min-h-[30px]">
                             {item.desc}
                         </h5>
-                        <h5 className="font-semibold break-word text-[10px] laptop:text-[12px] ">
+                        <h5 className="font-semibold break-word text-[10px] laptop:text-[12px] laptop:flex ">
                             <span>{item.lTemp + '°'}</span>
                             <span className="hidden laptop:block"> - </span>
                             <span className="hidden laptop:block">{item.hTemp + '°'}</span>
